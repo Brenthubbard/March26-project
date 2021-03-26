@@ -8,6 +8,10 @@ $(document).ready(function () {
 
     alert("func running")
 
+    $("radio").click(function () {
+      $("#cSharp").show
+    });
+
     // $("input[name$='tv']").click(function () {
     //   const test = $(this).val();
     //   $("#" + test).show();
@@ -43,23 +47,28 @@ $(document).ready(function () {
 
     alert("const is executed")
 
+    // if (bike && classic && sushi) {
+    //   $("#javaScript").show();
+    // }
+
     if (bike && mash && classic && sushi && morning) {
-      $("#javaScript").show();
+      $(".h2/#javaScript").show();
       $(".answer").hide();
-    } else if (water && three && rock && chicken && evening) {
+    } else { (water && three && rock && chicken && evening) 
       $("#cSharp").show();
-      // $(".answer").hide();
-    } else if (sky && taxi && country && sushi && morning) {
-      $("#javaScript").show();
-      // $(".answer").hide();
-    } else if (water && three && rock && chicken && evening) {
-      $("#cSharp").show();
-      // $(".answer").hide();
-    } else {
-      $("#cSharp").show();
-      // $(".answer").hide();
+      $(".answer").hide();
     }
-    alert("else if have run")
+    //  else if (sky && taxi && country && sushi && morning) {
+    //   $("#javaScript").show();
+    //   // $(".answer").hide();
+    // } else if (water && three && rock && chicken && evening) {
+    //   $("#cSharp").show();
+    //   // $(".answer").hide();
+    // } else {
+    //   $("#cSharp").show();
+    //   // $(".answer").hide();
+    // }
+    // alert("else if have run")
 
     event.preventDefault();
 

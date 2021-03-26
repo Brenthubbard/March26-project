@@ -12,6 +12,7 @@ text-align: center;
 .container{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* #cSharp {
-  font-size: larger;
-} */
+
+h2 #javaScript {
+  display: none;
+}
