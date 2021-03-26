@@ -1,1 +1,9 @@
-// Business logic: Can be before the document loads
+$(document).ready(function () {
+  
+  $("form").submit(function (event) {
+    event.preventDefault();
+    
+
+
+  });
+});
