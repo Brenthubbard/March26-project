@@ -5,5 +5,13 @@
   background-color: rgb(238, 224, 206);
 border-radius: 20px;
 text-align: center;
-
 }
+.answers {
+  display: none;
+}
+.container{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* #cSharp {
+  font-size: larger;
+} */

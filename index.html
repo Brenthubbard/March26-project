@@ -2,11 +2,9 @@
 <html lang="en">
 
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="js/script.js">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 
   <title>Learning to code</title>
@@ -18,80 +16,134 @@
       <h1>Which programming language is right for you?</h1>
     </div>
     <form id="theForm">
-<h2>Please enter your name</h2>
-<p>Below are a list of questions that will help determine the correct coding language for you to pursue. This is NOT a difinitive placement app but nearly a process of narrowing down the field to make your choices more poignant and allowing you to focus on a smaller field of options.</p>
-
-      <h3>What is your favorite hobby?</h3>
-
-      <input type="Radio" value="A" name="favoriteHobby" id="bike">
-      <label for="mtBiking">A: Mountain Biking</label><br>
-
-      <input type="Radio" value="B" name="favoriteHobby" id="water">
-      <label for="water">B: Underwater Basket Weaving</label><br>
-
-      <input type="Radio" value="C" name="favoriteHobby" id="sky">
-      <label for="sky">C: SkyDiving</label><br>
+      
+      <p>Below are a list of questions that will help determine the correct coding language for you to pursue. This is
+        NOT a definitive placement app but nearly a process of narrowing down the field to make your choices more
+        poignant and allowing you to focus on a smaller field of options.</p>
 
 
 
 
+      <div class="form-group">
+        <h3>What is your favorite classic T.V. show?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="tv" value="mash" checked>
+            M.A.S.H
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="tv" value="three" checked>
+            Three's Company
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="tv" value="taxi" checked>
+            Taxi
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <h3>What is your favorite hobby?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hobby" value="bike" checked>
+            Mountain Biking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hobby" value="water" checked>
+            Underwater Basket Weaving</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hobby" value="sky" checked>
+            SkyDiving
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <h3>What is your favorite type of music?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="symphony" checked>
+            Symphony
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="rock" checked>
+            Classic Rock
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="country" checked>
+            Country Music
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <h3>What is your favorite food?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="sushi" checked>
+            Sushi
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="chicken" checked>
+            Live Chicken
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="salad" checked>
+            Salad
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <h3>What is your favorite time of the day?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="morning" checked>
+            Morning
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="evening" checked>
+            The evening
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="night" checked>
+            At night
+          </label>
+        </div>
+      </div>
 
-      <h3>What is your favorite classic T.V. show?</h3>
-      <input type="Radio" value="A" name="favoriteshow" id="mash">
-      <label for="mash">A: M.A.S.H</label><br>
 
-      <input type="Radio" value="B" name="favoriteshow" id="three">
-      <label for="three">B: Three's Company</label><br>
-
-      <input type="Radio" value="C" name="favoriteshow" id="taxi"> <label for="taxi">C: Taxi</label><br>
-
-
-
-      <h2>What is your favorite type of music?</h2>
-      <input type="Radio" value="A" name="favoritemusic" id="classic">
-      <label for="classic">A: Symphony</label><br>
-
-      <input type="Radio" value="B" name="favoritemusic" id="rock">
-      <label for="rock">B: Classic Rock</label><br>
-
-      <input type="Radio" value="C" name="favoritemusic" id="country">
-      <label for="country">C: Country </label><br>
-
-
-      <h2>What is your favorite Food?</h2>
-      <input type="Radio" value="A" name="favoriteFood" id="sushi">
-      <label for="sushi">A: Sushi</label><br>
-
-      <input type="Radio" value="B" name="favoriteFood" id="chicken">
-      <label for="chicken">B: Live Chicken</label><br>
-
-      <input type="Radio" value="C" name="favoriteFood" id="salad">
-      <label for="salad">C: Salad</label><br>
-
-
-
-
-      <h2>What is your favorite Time of day?</h2>
-      <input type="Radio" value="A" name="favoritetimeofday" id="morning">
-      <label for="morning">A: Morning</label><br>
-
-      <input type="Radio" value="B" name="favoritetimeofday" id="evening">
-      <label for="evening">B: Evening</label><br>
-
-      <input type="Radio" value="C" name="favoritetimeofday" id="night">
-      <label for="night">C: Night</label><br>
-
-
-
-
-      <button type="button" class="btn btn-primary">Submit Answer</button>
-
-
-
+      <button type="submit" class="btn btn-primary">Submit Answer</button>
     </form>
   </div>
+  <div id="cSharp" class="answer">
+    <h2> Congratulations!!! You are matched with C Sharp. The code for people with pointy noses and big brains.</h2>
+  </div>
 
+  <div id="javaScript" class="answer">
+    <h2> Congratulations!!!! You are matched with JavaScript. The code for coffee drinkers!!</h2>
+  </div>
 
+  <div id="python" class="answer">
+    <h2>Congratulations!!! You are matched with Python. The code for people with forked tongues and smooth skin!!!</h2>
+  </div>
 
 
 </body>
