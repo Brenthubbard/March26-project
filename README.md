@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-#March29-Project
+
+# March29-Project
 =======
 # March26-project
 
