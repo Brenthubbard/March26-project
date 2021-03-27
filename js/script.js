@@ -13,9 +13,15 @@ $(document).ready(function () {
     if (hobby === "bike" && tv === "mash" && music === "rock" && food === "chicken" && day === "morning") {
       $("#python").show();
     } else if (tv === "three" && hobby === "water" && music === "country" && food === "salad" && day === "evening") {
-      $("#cSharp").show();
+      $("#javaScript").show();
     } else if (tv === "taxi" && hobby === "sky" && music === "symphony" && food === "sushi" && day === "night") {
       $("#javaScript").show();
+    } else if (tv === "mash" && music === "symphony" && hobby === "bike" && food === "sushi" && day === "evening") {
+      $("#python")
+    } else if (tv === "three" && hobby === "water" && music === "country" && food === "chicken" && day === "morning") {
+      $("#javaScript").show();
+    } else if (tv === "taxi" && hobby === "bike" && music === "rock" && food === "salad" && day === "night") {
+      $("#python").show();
     } else {
       $("#cSharp").show();
     }
