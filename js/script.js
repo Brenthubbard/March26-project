@@ -22,6 +22,8 @@ $(document).ready(function () {
       $("#javaScript").show();
     } else if (tv === "taxi" && hobby === "bike" && music === "rock" && food === "salad" && day === "night") {
       $("#python").show();
+    } else if (tv === "mash" && hobby === "bike" && music === "symphony" && food === "sushi" && day === "morning") {
+      $("#python").show();
     } else {
       $("#cSharp").show();
     }

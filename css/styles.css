@@ -6,9 +6,10 @@
 border-radius: 20px;
 text-align: center;
 }
-
-
-
+.answers {
+  color: rgb(248, 61, 61);
+  font-size:xx-large ;
+}
 #javaScript, #python, #cSharp {
   display: none;
 }
